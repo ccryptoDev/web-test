@@ -1,0 +1,197 @@
+.effect{
+  position: absolute;
+  width: 650px;
+  height: 733px;
+  left: 691px;
+  top: -583.99px;
+  background: linear-gradient(100.73deg, #F7FC01 25%, #2CC2FF 49.66%, #642EFF 76.2%);
+  filter: blur(124px);
+  z-index: 10;
+}
+.container{
+  // margin: 0px 167px 0px 164px;
+  max-width: 1110px;
+  width: 100%;
+  margin: 0 auto;
+  background-image: url('../../assets/images/background.png');
+  z-index: 1;
+
+  .title{
+    padding: 67px 0px;
+    font-family: Agrandir;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 34px;
+    line-height: 120%;
+    text-transform: uppercase;
+    color: #2D3047;
+  }
+
+  .claim-wrapper{
+
+    .claim-title{
+      font-family: Agrandir;
+      font-style: normal;
+      font-weight: 800;
+      font-size: 22px;
+      line-height: 130%;
+      text-transform: uppercase;
+      color: #2D3047;
+      margin-bottom: 20px;
+    }
+    .claim-body{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      background: #FFFFFF;
+      box-shadow: 1px 1px 0px rgba(0, 0, 0, 0.08);
+      padding: 30px 0px;
+
+      .contract-title{
+        font-family: Agrandir;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 16px;
+        line-height: 130%;
+        text-transform: uppercase;
+        color: #2D3047;
+      }
+      .contract-address{
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 140%;
+        color: #333333;
+        display: flex;
+        img{
+          margin-left: 10px
+        }
+      }
+
+      .claimable-title{
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 130%;
+        text-transform: uppercase;
+        color: #707582;
+        opacity: 0.7;
+      }
+      .claimable-amount{
+        font-family: Agrandir;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 19px;
+        line-height: 130%;
+        text-transform: uppercase;
+        color: #2D3047;
+
+        span{
+          opacity: 0.4;
+        }
+      }
+
+      .claim-btn{
+        padding: 8px 20px;
+        width: 187px;
+        height: 59px;
+        background: #F1FB56;
+        mix-blend-mode: normal;
+        border: none;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+        letter-spacing: 0.02em;
+        text-transform: uppercase;
+        color: #2D3047;
+        cursor: pointer
+      }
+      .claim-btn:hover{
+        font-size: 17px;
+      }
+    }
+  }
+
+  .transaction-wrapper{
+
+    .transaction-title{
+      font-family: Agrandir;
+      font-style: normal;
+      font-weight: 800;
+      font-size: 22px;
+      line-height: 130%;
+      text-transform: uppercase;
+      color: #2D3047;
+      margin: 58.5px 0px 38.5px 0px;
+    }
+    .transaction-body{
+
+      .balances{
+        display: flex;
+
+        .total-value{
+          font-family: Agrandir;
+          font-style: normal;
+          font-weight: 800;
+          font-size: 22px;
+          line-height: 130%;
+          color: #2D3047;
+
+          span{
+            opacity: 0.4;
+          }
+          .description{
+            font-size: 16px;
+            text-transform: uppercase;
+          }
+        }
+        .total-value:first-child{
+          margin-right: 220px;
+        }
+      }
+
+      .transaction-history{
+        background: #FFFFFF;
+        box-shadow: 1px 1px 0px rgba(0, 0, 0, 0.08);
+        margin-top: 43px;
+
+        table{
+          width: 100%;
+          border-collapse: collapse;
+
+          td{
+            border-bottom: 1px solid #EEEEEA;
+          }
+
+          thead td{
+            text-align: center;
+            padding: 25px 0px;
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 14px;
+            color: #2D3047;
+          }
+          tbody td{
+            text-align: center;
+            padding: 20px 0px;
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 13px;
+            line-height: 12px;
+            color: #333333;
+          }
+          tbody td:nth-child(2n){
+            background: #fafaf9;
+          }
+        }
+      }
+    }
+  }
+}
